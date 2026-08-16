@@ -9,12 +9,6 @@ public class Moto {
         this.precio = precio;
     }
 
-    public void mostrarDetalles(){
-        System.out.println("Marca: " + marca);
-        System.out.println("Cilindraje: " + cilindraje);
-        System.out.println("Precio: " + precio);
-    }
-
     public String getMarca() { return marca; }
     public void setMarca(String marca) { this.marca = marca; }
 
