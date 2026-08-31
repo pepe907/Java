@@ -1,0 +1,13 @@
+-- Clase UsuarioCa (Modelo / Objeto)
+- Propósito: Representa la entidad principal del sistema. Funciona como un molde para almacenar los datos
+   específicos y atributos necesarios para que la práctica funcione (como el nombre y el saldo).
+
+-- Clase GestorCa (Lógica de Negocio)
+- Propósito: Contiene el núcleo operativo y la lógica del sistema. Se encarga de manipular los datos
+   creando una lista (ArrayList) junto con la clase UsuarioCa, permitiendo
+   organizar, almacenar y consultar la información de manera ordenada y eficiente.
+
+-- Clase MainCa (Vista / Interfaz de Usuario)
+- Propósito: Actúa como la interfaz de la aplicación. Permite que el usuario interactúe con el sistema a través de la consola,
+   mostrando los menús, capturando datos mediante Scanner y ejecutando las acciones correspondientes.
+
